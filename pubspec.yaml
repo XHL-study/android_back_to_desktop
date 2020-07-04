@@ -1,8 +1,7 @@
 name: android_back_to_desktop
 description: A android back to desktop plugin.
 version: 0.0.1
-author: hxl
-homepage: android_back_to_desktop.dart
+homepage: https://github.com/XHL-study/android_back_to_desktop
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -30,8 +29,8 @@ flutter:
       android:
         package: android.back.android_back_to_desktop
         pluginClass: AndroidBackToDesktopPlugin
-      ios:
-        pluginClass: AndroidBackToDesktopPlugin
+    #  ios:
+    #    pluginClass: AndroidBackToDesktopPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
